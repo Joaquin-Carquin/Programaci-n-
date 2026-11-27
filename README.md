@@ -23,4 +23,4 @@ Cada producto almacena su nombre, stock, precio y disponibilidad. Para organizar
 
 Archivo principal
 
-"joaquin_carquin.py".
+"joaquin_carquin.py"
