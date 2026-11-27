@@ -21,10 +21,14 @@ Datos utilizados
 
 Cada producto almacena su nombre, stock, precio y disponibilidad. Para organizar la información se utilizan listas y diccionarios.
 
-Archivo principal
+Archivo principal:
 
 "joaquin_carquin.py"
 
-# Mantenimiento del proyecto
+# Optimiza la búsqueda y actualización de disponibilidad de productos
 
-Se revisó el código fuente y se comprobó el funcionamiento de las opciones del menú. El programa permite administrar productos y consultar su disponibilidad.
+Se modifica el proceso de búsqueda para permitir encontrar productos sin depender de las diferencias entre mayúsculas, minúsculas o espacios adicionales en el nombre ingresado.
+
+También se incorpora la actualización de disponibilidad antes de mostrar los datos de un producto encontrado, asegurando que el estado mostrado corresponda con su cantidad de stock actual.
+
+Con estos cambios se mejora la precisión de las búsquedas y la consistencia de la información presentada por el sistema.
