@@ -1,4 +1,4 @@
-# Sistema de Gestión de Productos
+Sistema de Gestión de Productos
 
 Estudiante: Joaquín Carquín
 Asignatura: FPY1101 - Fundamentos de Programación
@@ -6,7 +6,7 @@ Lenguaje: Python
 
 Descripción
 
-Este proyecto consiste en un sistema de gestión de productos de una tienda. Permite registrar, buscar, eliminar y mostrar productos mediante un menú interactivo.
+Este proyecto consiste en desarrollar un sistema de gestión de productos de una tienda mediante Python. El programa permite administrar productos utilizando un menú interactivo y diferentes funciones.
 
 Funciones principales
 
@@ -19,18 +19,19 @@ Funciones principales
 
 Datos utilizados
 
-Cada producto almacena su nombre, stock, precio y disponibilidad. Para organizar la información se utilizan listas y diccionarios.
+Cada producto se representa mediante un diccionario que almacena los siguientes campos:
 
-Archivo principal:
+- Nombre.
+- Stock.
+- Precio.
+- Disponibilidad.
 
-"joaquin_carquin.py"
+Los productos se almacenan en una lista, que se utiliza durante toda la ejecución del programa.
 
-# Optimiza la búsqueda y actualización de disponibilidad de productos
+Organización del proyecto
 
-Se modifica el proceso de búsqueda para permitir encontrar productos sin depender de las diferencias entre mayúsculas, minúsculas o espacios adicionales en el nombre ingresado.
+Archivo principal: "joaquin_carquin.py"
 
-También se incorpora la actualización de disponibilidad antes de mostrar los datos de un producto encontrado, asegurando que el estado mostrado corresponda con su cantidad de stock actual.
+Ejecución
 
-Con estos cambios se mejora la precisión de las búsquedas y la consistencia de la información presentada por el sistema.
-
-Se elimino el .py antiguo por el re diseño actual refinado. 
+Para utilizar el sistema, ejecuta el archivo "joaquin_carquin.py" en un entorno compatible con Python. Luego, selecciona una opción del menú principal.
