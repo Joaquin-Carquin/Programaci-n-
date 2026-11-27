@@ -24,3 +24,7 @@ Cada producto almacena su nombre, stock, precio y disponibilidad. Para organizar
 Archivo principal
 
 "joaquin_carquin.py"
+
+# Mantenimiento del proyecto
+
+Se revisó el código fuente y se comprobó el funcionamiento de las opciones del menú. El programa permite administrar productos y consultar su disponibilidad.
