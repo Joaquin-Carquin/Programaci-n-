@@ -32,3 +32,5 @@ Se modifica el proceso de búsqueda para permitir encontrar productos sin depend
 También se incorpora la actualización de disponibilidad antes de mostrar los datos de un producto encontrado, asegurando que el estado mostrado corresponda con su cantidad de stock actual.
 
 Con estos cambios se mejora la precisión de las búsquedas y la consistencia de la información presentada por el sistema.
+
+Se elimino el .py antiguo por el re diseño actual refinado. 
